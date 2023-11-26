@@ -1,11 +1,11 @@
-import Descripcion from "./Descripcion.css"
+import "./Descrip_serv.css"
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Footer from "./../../Componentes/Footer/Footer";
-import Header from "./../../Componentes/Header/Titulo";
-import Nav from "./../../Componentes/Nav/Nav";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Titulo";
+import Nav from "../Nav/Nav";
 import Style from "./../../Componentes/Inicio/Style.css";
-const Descrip = () => {
+function Descrip () {
     return (
         <div className="contenpag">
             <div className={Style.Header}><Header></Header></div>

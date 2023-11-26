@@ -5,7 +5,7 @@ import TituloError from './TituloError';
 import Style from "./Style.css"
 import Nav from '../Nav/Nav';
 
-const Error404 = () => {
+function Error404  ()  {
     return (
         <div className="error404">
             <div className="naverror404">

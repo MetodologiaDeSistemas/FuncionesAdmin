@@ -1,4 +1,4 @@
-import Gale from "./Gale.css";
+import "./Gale.css";
 import imagen1 from '../../Componentes/img/imagen1.png';
 import imagen2 from '../../Componentes/img/imagen2.png';
 import imagen3 from '../../Componentes/img/imagen3.png';
@@ -14,7 +14,7 @@ import Nav from "./../../Componentes/Nav/Nav";
 import Style from "./../../Componentes/Inicio/Style.css";
 
 
-const Galeria = () => {
+function Galeria  () {
     return (
       <div className="contenpag">
         <div className={Style.Header}><Header></Header></div>

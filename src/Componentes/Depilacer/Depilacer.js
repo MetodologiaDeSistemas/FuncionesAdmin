@@ -1,4 +1,4 @@
-import Depila from "./Depila.css";
+import "./Depila.css";
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom/client';
 

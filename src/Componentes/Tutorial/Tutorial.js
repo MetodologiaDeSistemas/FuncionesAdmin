@@ -1,9 +1,9 @@
 import Footer from "../Footer/Footer";
-import Tuto from "./Tuto.css";
+import "./Tuto.css";
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const Tutotial = () => {
+function Tutotial  ()  {
 
     return (
         <div>

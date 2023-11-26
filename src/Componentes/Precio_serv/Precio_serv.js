@@ -1,9 +1,9 @@
 import servicios from "./servicios.css";
-import Footer from "./../../Componentes/Footer/Footer";
+import Footer from "../Footer/Footer";
 import { useState, useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
  
-const Servicios = () => {
+function Servicios ()  {
     return (
         
              <div className="tableconten">

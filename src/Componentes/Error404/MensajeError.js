@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Error404 from "./Error404";
-const Main = () => {
+function Main  ()  {
     return (
       <>
         <div>

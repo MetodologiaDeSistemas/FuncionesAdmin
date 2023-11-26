@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Error404 from "../Error404/Error404"
 
-const Titulo = ({titulo}) => {
+function Titulo  ({titulo})  {
   return (
     <>
       <div>

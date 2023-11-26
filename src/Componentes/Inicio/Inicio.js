@@ -3,9 +3,9 @@ import Footer from "./../../Componentes/Footer/Footer";
 import Header from "./../../Componentes/Header/Titulo";
 import React, { useState, useEffect } from 'react'
 import Style from "./Style.css";
-import Servicios from "./../../Componentes/Servicios/Servicios";
+import Servicios from "../Precio_serv/Precio_serv";
 import Nav from "./../../Componentes/Nav/Nav";
-const Inicio = () =>{
+function Inicio  () {
 
  useEffect(() => {document.title = "NAS";});
 
